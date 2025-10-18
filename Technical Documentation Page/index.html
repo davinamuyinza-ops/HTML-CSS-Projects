@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewort" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="grid-nav">
+    <nav id="navbar">
+      <header >CSS Grid Layout</header>
+      <a href="#Introduction" class="nav-link">Introduction</a>
+      <a href="#What_is_a_Grid_container?" class="nav-link">What is a Grid container?</a>
+      <a href="#Grid_Items" class="nav-link">Grid Items</a>
+      <a href="#Grid_Lines" class="nav-link">Grid Lines</a>
+      <a href="#Grid_Areas" class="nav-link">Grid Areas</a>
+      <a href="#Common_Grid_Properties" class="nav-link">Common Grid Properties</a>
+      <a href="#Why_use_CSS_Grid?" class="nav-link">Why use CSS Grid?</a>
+      <a href="#Further_Reading" class="nav-link">Further reading</a>
+    </nav>
+    </div>
+    <main id="main-doc">
+      <h1>CSS Grid Layout – Technical Documentation</h1>
+      <div class="grid-main">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>CSS Grid Layout is a powerful layout system in CSS that allows web developers to build complex
+and responsive web layouts with ease. Unlike older layout techniques like floats or inline-block,
+CSS Grid is designed specifically for laying out elements in rows and columns.</p>
+      </section>
+      <section class="main-section" id="What_is_a_Grid_container?">
+         <header>What is a Grid container?</header>
+         <p >A grid container is an element that has the property <code>display: grid;</code> or <code>display: inline-grid;</code>. Once this is
+applied, all of its direct children become grid items. The container establishes the grid structure by
+defining how many columns and rows it contains, as well as how items are spaced and aligned.</p>
+      </section>
+      <section class="main-section" id="Grid_Items">
+         <header>Grid Items</header>
+         <p>Grid items are the direct children of a grid container. They can be automatically placed or explicitly
+positioned using properties like <ul><li><code>grid-column-start</code></li> <li> <code>grid-row-end</code></li> <li><code>grid-area</code></li></ul> Items can also be
+aligned individually using <ul><li><code>justify-self</code></li> <li><code>align-self</code></li></ul></p>
+      </section>
+      <section class="main-section" id="Grid_Lines">
+         <header>Grid Lines</header>
+         <p>Grid lines are the <strong>lines between columns and rows</strong> in a grid. Items can be positioned by referring to
+these line numbers. For example <ul><li><code>grid-column: 1 / 3;</code> means the item starts at line 1 and spans to
+line 3.</li></ul></p>
+      </section>
+      <section class="main-section" id="Grid_Areas">
+         <header  > Grid Areas</header>
+         <p>Named <strong>grid areas</strong> provide semantic control over layouts. Using <code>grid-template-areas</code> developers
+can define regions of the grid and place items using <code>grid-area</code>. This approach is especially useful for
+layouts like headers, footers, and sidebars.</p>
+      </section>
+      <section class="main-section" id="Common_Grid_Properties">
+         <header>Common Grid Properties</header>
+         <p >Here are some common properties used in CSS Grid:
+         <ul class="grid-list">
+           <li><code>display: grid</code> Turns an element into a grid container</li>
+           <li><code>grid-template-columns</code> Defines column structure</li>
+           <li><code>grid-template-rows</code>  Defines row structure</li>
+           <li><code>gap</code> or <code>grid-gap</code> – Adds space between grid cells</li>
+           <li><code>justify-items</code>  Aligns items horizontally</li>
+           <li><code>align-items</code>  Aligns items vertically</li>
+           <li><code>grid-area</code>  Assigns an item to a named area</li>
+         </ul>
+         </p>
+      </section>
+      <section class="main-section" id="Why_use_CSS_Grid?">
+         <header>Why use CSS Grid?</header>
+         <p><ul><li>CSS Grid makes layout creation more straightforward and powerful.</li> <li> It eliminates the need for float
+or flexbox workarounds and is well-suited for both components and full-page layouts.</li> <li> It also works
+well in combination with Flexbox, which is better for one-dimensional layouts.</li></ul></p>
+      </section>
+      <section class="main-section" id="Further_Reading">
+         <header>Further reading</header>
+         <p><ul> <li> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout">MDN Web Docs</a> </li> 
+      <li> <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS-Tricks Guide </a> </li></ul></p>
+      </section>
+      </div>
+    </main>
+  </body>
+</html>

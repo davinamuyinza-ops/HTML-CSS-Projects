@@ -1,0 +1,70 @@
+body{ 
+    background-image:url(https://tse3.mm.bing.net/th/id/OIP.9QgADOohk6Rv-1pNQBGNmAHaEK?pid=Api&P=0&h=180);  
+    font-family:sans-serif;
+    background-color:#1b1b32; 
+    color:white; 
+    padding:30px;
+}
+
+h1,p{
+    text-align:center; 
+    margin:1em auto;
+}
+
+h1{
+    font-size:30px;
+    margin-top:0; 
+    margin-bottom:5px;
+}
+
+p{
+    font-size:14px; 
+    margin-top:0; 
+    margin-bottom:20px;
+    font-family:cursive;
+}
+
+label{
+    display:block;
+    margin: 0.5rem 0; 
+}
+
+em{
+    font-size:12px;
+}
+
+fieldset{
+    padding:5px; 
+    border:none; 
+    margin:40px auto;
+}
+
+fieldset:first-of-type{
+    margin-top:-10px;
+}
+
+input[type="text"],[type="Email"],[type="number"],textarea,select {
+    margin: 10px 0 0 0; 
+    width: 100%; 
+    min-height: 2em;
+}
+
+input[type="Submit"]{
+    width:80%; 
+    display:block;
+    margin: 2em auto;
+    height:3em; 
+    color:white;
+    border-color:green;
+    background-color:green;
+    font-size:0.9rem;
+}
+
+.survey{
+    background-color:#1b1b32;
+    width:80%; 
+    padding:30px; 
+    margin-top:5px;
+    margin-left: auto;
+    margin-right: auto;
+}
