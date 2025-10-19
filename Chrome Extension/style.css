@@ -1,3 +1,12 @@
+html, body {
+  width: 400px;         
+  margin: 0;
+  padding: 12px;         
+  box-sizing: border-box;
+}
+
+* { box-sizing: inherit; }
+
 body{
     padding:30px;
     font-size: medium;
@@ -13,7 +22,6 @@ body{
     margin-bottom: 6px;
     border: 1px solid rgb(17, 17, 16);
     padding: 10px;
-    box-sizing: border-box;
 }
 
 button{
@@ -22,7 +30,7 @@ button{
     color: white;
     height: 40px;
     border: none;
-    width: 200px;
+    width: 100%;
 }
 
 ul{
