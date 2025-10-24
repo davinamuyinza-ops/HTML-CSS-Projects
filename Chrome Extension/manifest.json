@@ -7,6 +7,6 @@
         "default_icon":"image.png"
     },
     "permissions": [
-        "tabs"
+     "tabs"
     ]
 }
